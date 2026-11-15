@@ -1,0 +1,15 @@
+{
+  "host": "127.0.0.1",
+  "port": 9000,
+  "wallpaperPath": "./assets/wallpaper-4k.jpg",
+  "backgroundColor": "#03080C",
+  "backgroundSize": "contain",
+  "backgroundPosition": "center center",
+  "framePadding": "48px 12px 12px 12px",
+  "overlayColor": "rgba(3, 8, 12, 0.22)",
+  "backdropBlur": "14px",
+  "glassSurfaceColor": "rgba(12, 16, 24, 0.48)",
+  "glassBorderColor": "rgba(255, 255, 255, 0.14)",
+  "forceLightText": true,
+  "targetTitleFilter": ""
+}

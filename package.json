@@ -1,0 +1,25 @@
+{
+  "name": "theme-antigravity",
+  "version": "1.0.0",
+  "description": "Non-invasive runtime theme injector for Electron-based Antigravity windows via Chrome DevTools Protocol (CDP).",
+  "type": "module",
+  "main": "inject.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngoisaocodon2202/theme-antigravity.git"
+  },
+  "author": "Nguyen Quoc Khai <ngoisaocodon2202@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node inject.js",
+    "watch": "node inject.js --watch",
+    "reset": "node inject.js --reset",
+    "dry-run": "node inject.js --dry-run",
+    "check": "node --check inject.js && node --check src/config.mjs && node --check src/cdpClient.mjs && node --check src/clientPayload.mjs",
+    "build": "npm run check && npm test && npm run dry-run",
+    "test": "node --test test/injector.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

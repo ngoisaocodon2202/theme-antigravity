@@ -1,0 +1,6 @@
+node_modules/
+.cdp-state.json
+.test-cdp-state.json
+.DS_Store
+Thumbs.db
+*.log
